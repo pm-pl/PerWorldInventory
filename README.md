@@ -1,6 +1,7 @@
 # PerWorldInventory
 [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/YynM57V) 
 [![](https://poggit.pmmp.io/shield.dl/PerWorldInventory)](https://poggit.pmmp.io/p/PerWorldInventory) 
+[![Hits](https://hitcount.dev/p/BlockHorizons/PerWorldInventory.svg)](https://hitcount.dev/p/BlockHorizons/PerWorldInventory)
 
 A full featured per world inventory plugin.
 
