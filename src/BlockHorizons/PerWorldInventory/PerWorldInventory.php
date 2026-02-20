@@ -7,6 +7,7 @@ namespace BlockHorizons\PerWorldInventory;
 use BlockHorizons\PerWorldInventory\player\PlayerManager;
 use BlockHorizons\PerWorldInventory\world\WorldManager;
 use pocketmine\plugin\PluginBase;
+use bStats\PocketmineMp\Metrics;
 
 final class PerWorldInventory extends PluginBase{
 
@@ -17,6 +18,9 @@ final class PerWorldInventory extends PluginBase{
 	private $world_manager;
 
 	public function onEnable() : void{
+		// Initialize metrics
+        new Metrics($this, 29644);
+
 		$this->player_manager = new PlayerManager($this);
 		$this->world_manager = new WorldManager($this);
 	}
